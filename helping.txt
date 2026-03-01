@@ -1,3 +1,51 @@
 for github connect vscode to github account
    git remote add origin https://github.com/naveen767574/project-management-system.git
 
+moving all files to that github
+  git add . 
+
+creating first commit
+  git commit -m "Initial project commit"
+
+Push to your GitHub repo (main branch)
+  git branch -M main
+  git push -u origin main
+
+too see the current git ststus
+  git status
+
+
+⭐ Your Daily Git Workflow (Easy Version)
+
+Whenever you make changes in VS Code, do these three commands:
+
+1️⃣ See changed files
+git status
+2️⃣ Add all updated files
+git add .
+3️⃣ Commit with a message
+git commit -m "your message here"
+4️⃣ Push to GitHub
+git push
+
+That's it.
+Just 4 simple commands, always the same.
+
+
+⭐ Bonus: What Your Teammates Do
+
+When your teammates clone your repo:
+
+git clone <your-repo-link>
+
+When they want the latest updates:
+
+git pull
+
+When they make changes:
+
+git add .
+git commit -m "updated resume parser"
+git push
+
+That’s all.
